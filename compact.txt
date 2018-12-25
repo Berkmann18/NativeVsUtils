@@ -1,6 +1,0 @@
-lodash x 20,778,465 ops/sec ±6.49% (85 runs sampled)
-underscore x 10,408,017 ops/sec ±5.57% (87 runs sampled)
-native x 19,693,326 ops/sec ±6.41% (87 runs sampled)
-native (verbose) x 20,134,949 ops/sec ±5.59% (89 runs sampled)
-The fastest is lodash
-The slowest is underscore
