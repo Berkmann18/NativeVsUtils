@@ -1,0 +1,34 @@
+#IDE/editors
+.idea
+.sublime-workspace
+.project
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Generation
+out
+build
+coverage
+node_modules
+
+# FS
+.dropbox*
+*~
+*.lnk
+.DS_Store
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+logs
+*.log
+selenium-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

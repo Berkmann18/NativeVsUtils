@@ -1,0 +1,561 @@
+lodash: 
+lodash: 
+underscore: 
+lodash x 1,953,456 ops/sec ±6.70% (8 runs sampled)
+lodash x 652,528,932 ops/sec ±0.45% (8 runs sampled)
+lodash x 651,440,427 ops/sec ±1.26% (8 runs sampled)
+lodash x 27,988,482 ops/sec ±31.89% (12 runs sampled)
+lodash x 18,453,853 ops/sec ±4.08% (9 runs sampled)
+lodash x 1,604,663 ops/sec ±11.14% (9 runs sampled)
+underscore: 
+lodash x 10,933,877 ops/sec ±6.56% (14 runs sampled)
+lodash x 4,521,999 ops/sec ±9.73% (10 runs sampled)
+underscore: 
+lodash x 597,046 ops/sec ±9.72% (12 runs sampled)
+lodash x 527,176 ops/sec ±4.68% (17 runs sampled)
+lodash x 268,173,174 ops/sec ±43.11% (18 runs sampled)
+lodash x 292,587,584 ops/sec ±38.25% (18 runs sampled)
+lodash x 266,931,046 ops/sec ±43.02% (18 runs sampled)
+lodash x 274,459,519 ops/sec ±37.93% (18 runs sampled)
+lodash x 1,176,156 ops/sec ±9.51% (23 runs sampled)
+underscore x 45,507,255 ops/sec ±6.13% (7 runs sampled)
+lodash x 15,646,348 ops/sec ±8.07% (27 runs sampled)
+lodash x 180,689,792 ops/sec ±24.09% (30 runs sampled)
+lodash x 59,479,460 ops/sec ±4.27% (32 runs sampled)
+native x 24,927,257 ops/sec ±45.25% (9 runs sampled)
+	Benchmark: slice
+The fastest is lodash,native
+The slowest is native,lodash
+
+Scores (/1): 
+
+lodash: 1+ / 1- = 0
+underscore: 0+ / 12- = -12
+native: 1+ / 1- = 0
+underscore x 1,094,197 ops/sec ±35.56% (8 runs sampled)
+native x 2,414,057 ops/sec ±7.67% (10 runs sampled)
+	Benchmark: concat
+The fastest is native
+The slowest is lodash
+
+Scores (/2): 
+
+lodash: 1+ / 2- = -1
+underscore: 0+ / 12- = -12
+native: 2+ / 1- = 1
+lodash x 193,731,859 ops/sec ±23.74% (31 runs sampled)
+underscore x 727,784 ops/sec ±9.77% (6 runs sampled)
+lodash x 186,779,280 ops/sec ±22.67% (30 runs sampled)
+lodash x 193,452,334 ops/sec ±20.89% (32 runs sampled)
+native x 135,232,316 ops/sec ±24.84% (13 runs sampled)
+	Benchmark: get
+The fastest is native
+The slowest is lodash
+
+Scores (/3): 
+
+lodash: 1+ / 3- = -2
+underscore: 0+ / 12- = -12
+native: 3+ / 1- = 2
+lodash x 34,280,514 ops/sec ±11.20% (34 runs sampled)
+underscore: 
+underscore x 14,793,600 ops/sec ±4.08% (15 runs sampled)
+lodash x 30,819,721 ops/sec ±8.76% (37 runs sampled)
+lodash x 14,262,928 ops/sec ±6.07% (37 runs sampled)
+lodash x 4,227,320 ops/sec ±8.01% (38 runs sampled)
+underscore x 13,019,711 ops/sec ±4.43% (8 runs sampled)
+lodash x 1,063,437 ops/sec ±9.49% (41 runs sampled)
+lodash x 4,875,536 ops/sec ±8.91% (40 runs sampled)
+underscore: 
+underscore x 621,514,623 ops/sec ±11.00% (18 runs sampled)
+native x 1,145,772 ops/sec ±40.89% (10 runs sampled)
+	Benchmark: omit
+The fastest is native,underscore
+The slowest is lodash
+
+Scores (/4): 
+
+lodash: 1+ / 4- = -3
+underscore: 1+ / 12- = -11
+native: 4+ / 1- = 3
+native(typeof) x 97,375,111 ops/sec ±8.31% (46 runs sampled)
+native x 124,735,075 ops/sec ±9.93% (37 runs sampled)
+	Benchmark: gt
+The fastest is lodash
+The slowest is native
+
+Scores (/5): 
+
+lodash: 2+ / 4- = -2
+underscore: 1+ / 12- = -11
+native: 4+ / 2- = 2
+native x 129,092,809 ops/sec ±8.18% (38 runs sampled)
+	Benchmark: gte
+The fastest is lodash
+The slowest is native
+
+Scores (/6): 
+
+lodash: 3+ / 4- = -1
+underscore: 1+ / 12- = -11
+native: 4+ / 3- = 1
+native x 30,315,960 ops/sec ±80.75% (5 runs sampled)
+	Benchmark: repeat
+The fastest is lodash
+The slowest is native
+
+Scores (/7): 
+
+lodash: 4+ / 4- = 0
+underscore: 1+ / 12- = -11
+native: 4+ / 4- = 0
+native x 15,535,282 ops/sec ±18.33% (5 runs sampled)
+	Benchmark: without
+The fastest is native
+The slowest is lodash
+
+Scores (/8): 
+
+lodash: 4+ / 5- = -1
+underscore: 1+ / 12- = -11
+native: 5+ / 4- = 1
+lodash x 65,769,023 ops/sec ±8.02% (56 runs sampled)
+lodash x 28,746,902 ops/sec ±4.50% (56 runs sampled)
+underscore x 1,857,465 ops/sec ±2.21% (8 runs sampled)
+lodash x 52,747,262 ops/sec ±8.98% (59 runs sampled)
+native x 570,041,552 ops/sec ±24.48% (14 runs sampled)
+	Benchmark: toUpper
+The fastest is native
+The slowest is lodash
+
+Scores (/9): 
+
+lodash: 4+ / 6- = -2
+underscore: 1+ / 12- = -11
+native: 6+ / 4- = 2
+underscore: 
+lodash x 96,598,275 ops/sec ±8.06% (60 runs sampled)
+lodash x 37,141,701 ops/sec ±12.09% (61 runs sampled)
+underscore x 642,781,462 ops/sec ±0.70% (20 runs sampled)
+lodash x 42,005,277 ops/sec ±6.61% (66 runs sampled)
+underscore x 663,814 ops/sec ±31.29% (12 runs sampled)
+native x 651,341,667 ops/sec ±0.49% (26 runs sampled)
+	Benchmark: toLower
+The fastest is native
+The slowest is lodash
+
+Scores (/10): 
+
+lodash: 4+ / 7- = -3
+underscore: 1+ / 12- = -11
+native: 7+ / 4- = 3
+lodash x 34,082,941 ops/sec ±9.97% (70 runs sampled)
+underscore x 628,937,141 ops/sec ±4.69% (40 runs sampled)
+native x 603,512,504 ops/sec ±10.68% (38 runs sampled)
+	Benchmark: isNil
+The fastest is native
+The slowest is lodash
+
+Scores (/11): 
+
+lodash: 4+ / 8- = -4
+underscore: 1+ / 12- = -11
+native: 8+ / 4- = 4
+lodash x 17,706,674 ops/sec ±11.19% (75 runs sampled)
+underscore x 28,499,400 ops/sec ±10.54% (36 runs sampled)
+lodash x 22,322,333 ops/sec ±6.62% (74 runs sampled)
+lodash x 18,494,587 ops/sec ±8.14% (75 runs sampled)
+lodash x 11,103,394 ops/sec ±9.36% (77 runs sampled)
+lodash x 7,325,861 ops/sec ±10.34% (75 runs sampled)
+native x 183,345,242 ops/sec ±20.52% (17 runs sampled)
+	Benchmark: isUndefined
+The fastest is native
+The slowest is native(typeof)
+
+Scores (/12): 
+
+lodash: 4+ / 8- = -4
+underscore: 1+ / 12- = -11
+native: 9+ / 5- = 4
+native x 78,110,316 ops/sec ±11.97% (42 runs sampled)
+	Benchmark: keys
+The fastest is native
+The slowest is lodash
+
+Scores (/13): 
+
+lodash: 4+ / 9- = -5
+underscore: 1+ / 12- = -11
+native: 10+ / 5- = 5
+lodash x 15,031,135 ops/sec ±7.73% (77 runs sampled)
+lodash x 13,099,377 ops/sec ±6.31% (79 runs sampled)
+lodash x 12,845,564 ops/sec ±6.36% (80 runs sampled)
+native x 660,003,272 ops/sec ±1.71% (8 runs sampled)
+lodash x 12,788,602 ops/sec ±4.35% (83 runs sampled)
+underscore x 59,804,429 ops/sec ±1.87% (16 runs sampled)
+native x 5,830,311 ops/sec ±6.09% (83 runs sampled)
+	Benchmark: replace
+The fastest is native
+The slowest is native
+
+Scores (/14): 
+
+lodash: 4+ / 9- = -5
+underscore: 1+ / 12- = -11
+native: 11+ / 6- = 5
+underscore x 41,569,247 ops/sec ±3.96% (21 runs sampled)
+native x 3,158,013 ops/sec ±38.10% (15 runs sampled)
+	Benchmark: sortBy/orderBy
+The fastest is native
+The slowest is underscore
+
+Scores (/15): 
+
+lodash: 4+ / 9- = -5
+underscore: 1+ / 13- = -12
+native: 12+ / 6- = 6
+lodash x 7,166,942 ops/sec ±5.52% (86 runs sampled)
+underscore x 42,873,568 ops/sec ±3.80% (51 runs sampled)
+lodash x 3,798,313 ops/sec ±3.52% (88 runs sampled)
+underscore x 117,879,832 ops/sec ±8.01% (47 runs sampled)
+underscore x 455,234,422 ops/sec ±22.13% (60 runs sampled)
+native x 269,937,521 ops/sec ±31.03% (27 runs sampled)
+	Benchmark: isArrayBuffer
+The fastest is native
+The slowest is lodash
+
+Scores (/16): 
+
+lodash: 4+ / 10- = -6
+underscore: 1+ / 13- = -12
+native: 13+ / 6- = 7
+native x 187,258,734 ops/sec ±35.52% (19 runs sampled)
+native x 1,813,259 ops/sec ±10.06% (86 runs sampled)
+	Benchmark: reverse
+The fastest is lodash,native
+The slowest is native,lodash
+
+Scores (/17): 
+
+lodash: 5+ / 11- = -6
+underscore: 1+ / 13- = -12
+native: 14+ / 7- = 7
+native x 22,697,577 ops/sec ±8.62% (48 runs sampled)
+	Benchmark: toPairs
+The fastest is native
+The slowest is lodash
+
+Scores (/18): 
+
+lodash: 5+ / 12- = -7
+underscore: 1+ / 13- = -12
+native: 15+ / 7- = 8
+native x 289,127,613 ops/sec ±23.65% (46 runs sampled)
+	Benchmark: isArray
+The fastest is underscore
+The slowest is lodash,native
+
+Scores (/19): 
+
+lodash: 5+ / 13- = -8
+underscore: 2+ / 13- = -11
+native: 15+ / 8- = 7
+native x 23,586,762 ops/sec ±6.55% (58 runs sampled)
+	Benchmark: fill
+The fastest is lodash
+The slowest is native
+
+Scores (/20): 
+
+lodash: 6+ / 13- = -7
+underscore: 2+ / 13- = -11
+native: 15+ / 9- = 6
+native x 145,151,781 ops/sec ±13.15% (24 runs sampled)
+underscore x 14,776,962 ops/sec ±3.67% (13 runs sampled)
+underscore x 17,955,965 ops/sec ±10.75% (45 runs sampled)
+underscore x 23,088,773 ops/sec ±28.58% (22 runs sampled)
+underscore x 11,969,792 ops/sec ±1.71% (34 runs sampled)
+native x 82,675,086 ops/sec ±27.95% (28 runs sampled)
+	Benchmark: findIndex
+The fastest is lodash,native
+The slowest is underscore
+
+Scores (/21): 
+
+lodash: 7+ / 13- = -6
+underscore: 2+ / 14- = -12
+native: 16+ / 9- = 7
+underscore x 4,362,535 ops/sec ±13.75% (45 runs sampled)
+native x 9,539,482 ops/sec ±4.18% (85 runs sampled)
+	Benchmark: extend
+The fastest is native
+The slowest is lodash
+
+Scores (/22): 
+
+lodash: 7+ / 14- = -7
+underscore: 2+ / 14- = -12
+native: 17+ / 9- = 8
+underscore x 31,301,482 ops/sec ±2.22% (55 runs sampled)
+native x 651,866,361 ops/sec ±0.59% (27 runs sampled)
+native x 13,911,451 ops/sec ±5.63% (87 runs sampled)
+	Benchmark: map
+The fastest is underscore,native
+The slowest is lodash
+
+Scores (/23): 
+
+lodash: 7+ / 15- = -8
+underscore: 3+ / 14- = -11
+native: 18+ / 9- = 9
+native x 14,733,335 ops/sec ±6.21% (81 runs sampled)
+	Benchmark: assign
+The fastest is native
+The slowest is lodash
+
+Scores (/24): 
+
+lodash: 7+ / 16- = -9
+underscore: 3+ / 14- = -11
+native: 19+ / 9- = 10
+underscore x 53,831,727 ops/sec ±9.62% (63 runs sampled)
+native x 613,740,135 ops/sec ±9.30% (46 runs sampled)
+	Benchmark: indexOf
+The fastest is native
+The slowest is underscore
+
+Scores (/25): 
+
+lodash: 7+ / 16- = -9
+underscore: 3+ / 15- = -12
+native: 20+ / 9- = 11
+native(concat/shift) x 4,943,036 ops/sec ±12.86% (56 runs sampled)
+native x 34,195,059 ops/sec ±11.37% (65 runs sampled)
+	Benchmark: trim
+The fastest is native
+The slowest is lodash
+
+Scores (/26): 
+
+lodash: 7+ / 17- = -10
+underscore: 3+ / 15- = -12
+native: 21+ / 9- = 12
+native x 15,092,937 ops/sec ±45.56% (14 runs sampled)
+native x 69,328,185 ops/sec ±11.26% (51 runs sampled)
+	Benchmark: every
+The fastest is native
+The slowest is underscore
+
+Scores (/27): 
+
+lodash: 7+ / 17- = -10
+underscore: 3+ / 16- = -13
+native: 22+ / 9- = 13
+underscore x 45,988,736 ops/sec ±7.69% (70 runs sampled)
+native x 33,586,330 ops/sec ±9.62% (33 runs sampled)
+	Benchmark: values
+The fastest is native
+The slowest is lodash
+
+Scores (/28): 
+
+lodash: 7+ / 18- = -11
+underscore: 3+ / 16- = -13
+native: 23+ / 9- = 14
+native x 18,253,458 ops/sec ±19.33% (17 runs sampled)
+	Benchmark: lastIndexO
+The fastest is lodash
+The slowest is native
+
+Scores (/29): 
+
+lodash: 8+ / 18- = -10
+underscore: 3+ / 16- = -13
+native: 23+ / 10- = 13
+native x 2,141,140 ops/sec ±6.00% (88 runs sampled)
+	Benchmark: flatten
+The fastest is lodash
+The slowest is underscore
+
+Scores (/30): 
+
+lodash: 9+ / 18- = -9
+underscore: 3+ / 17- = -14
+native: 23+ / 10- = 13
+underscore x 35,243,076 ops/sec ±4.30% (77 runs sampled)
+native(concat/pop) x 5,784,415 ops/sec ±12.32% (53 runs sampled)
+native(ES6) x 610,144,766 ops/sec ±13.83% (19 runs sampled)
+	Benchmark: isNan
+The fastest is native,native(ES6)
+The slowest is underscore
+
+Scores (/31): 
+
+lodash: 9+ / 18- = -9
+underscore: 3+ / 18- = -15
+native: 25+ / 10- = 15
+native(ES5) x 128,843,331 ops/sec ±1.79% (39 runs sampled)
+	Benchmark: includes
+The fastest is native,native(ES5)
+The slowest is lodash
+
+Scores (/32): 
+
+lodash: 9+ / 19- = -10
+underscore: 3+ / 18- = -15
+native: 27+ / 10- = 17
+native x 19,778,122 ops/sec ±8.31% (35 runs sampled)
+	Benchmark: each
+The fastest is native
+The slowest is lodash,underscore
+
+Scores (/33): 
+
+lodash: 9+ / 20- = -11
+underscore: 3+ / 19- = -16
+native: 28+ / 10- = 18
+native x 648,888,861 ops/sec ±1.45% (58 runs sampled)
+	Benchmark: isNull
+The fastest is native,underscore
+The slowest is lodash
+
+Scores (/34): 
+
+lodash: 9+ / 21- = -12
+underscore: 4+ / 19- = -15
+native: 29+ / 10- = 19
+native x 3,791,676 ops/sec ±8.97% (65 runs sampled)
+	Benchmark: join
+The fastest is lodash
+The slowest is native
+
+Scores (/35): 
+
+lodash: 10+ / 21- = -11
+underscore: 4+ / 19- = -15
+native: 29+ / 11- = 18
+underscore x 22,322,707 ops/sec ±6.98% (81 runs sampled)
+native: 
+	Benchmark: reduceRight
+The fastest is lodash,underscore
+The slowest is underscore,lodash
+
+Scores (/36): 
+
+lodash: 11+ / 22- = -11
+underscore: 5+ / 20- = -15
+native: 29+ / 11- = 18
+underscore x 23,819,695 ops/sec ±5.36% (85 runs sampled)
+underscore x 8,057,509 ops/sec ±6.60% (83 runs sampled)
+native: 
+	Benchmark: reduce
+The fastest is underscore
+The slowest is lodash
+
+Scores (/37): 
+
+lodash: 11+ / 23- = -12
+underscore: 6+ / 20- = -14
+native: 29+ / 11- = 18
+native x 110,590,121 ops/sec ±0.60% (54 runs sampled)
+	Benchmark: some
+The fastest is native
+The slowest is underscore
+
+Scores (/38): 
+
+lodash: 11+ / 23- = -12
+underscore: 6+ / 21- = -15
+native: 30+ / 11- = 19
+native x 129,789,831 ops/sec ±4.62% (54 runs sampled)
+	Benchmark: find
+The fastest is native
+The slowest is lodash
+
+Scores (/39): 
+
+lodash: 11+ / 24- = -13
+underscore: 6+ / 21- = -15
+native: 31+ / 11- = 20
+underscore x 2,331,015 ops/sec ±3.58% (90 runs sampled)
+native(Array.from) x 1,471,837 ops/sec ±6.28% (73 runs sampled)
+native(slice) x 40,603,615 ops/sec ±9.95% (52 runs sampled)
+	Benchmark: last
+The fastest is underscore,native
+The slowest is native(concat/pop)
+
+Scores (/40): 
+
+lodash: 11+ / 24- = -13
+underscore: 7+ / 21- = -14
+native: 32+ / 12- = 20
+native x 8,228,889 ops/sec ±12.16% (61 runs sampled)
+	Benchmark: size
+The fastest is underscore
+The slowest is native
+
+Scores (/41): 
+
+lodash: 11+ / 24- = -13
+underscore: 8+ / 21- = -13
+native: 32+ / 13- = 19
+native x 21,125,166 ops/sec ±5.17% (60 runs sampled)
+	Benchmark: head & tail
+The fastest is underscore,lodash
+The slowest is native
+
+Scores (/42): 
+
+lodash: 12+ / 24- = -12
+underscore: 9+ / 21- = -12
+native: 32+ / 14- = 18
+native(slice) x 38,289,557 ops/sec ±9.40% (69 runs sampled)
+	Benchmark: first
+The fastest is native
+The slowest is native(concat/shift)
+
+Scores (/43): 
+
+lodash: 12+ / 24- = -12
+underscore: 9+ / 21- = -12
+native: 33+ / 15- = 18
+native(verbose) x 17,371,235 ops/sec ±8.15% (83 runs sampled)
+	Benchmark: compact
+The fastest is native(verbose),native
+The slowest is underscore
+
+Scores (/44): 
+
+lodash: 12+ / 24- = -12
+underscore: 9+ / 22- = -13
+native: 35+ / 15- = 20
+native x 23,574,203 ops/sec ±8.90% (69 runs sampled)
+	Benchmark: filter
+The fastest is native
+The slowest is underscore
+
+Scores (/45): 
+
+lodash: 12+ / 24- = -12
+underscore: 9+ / 23- = -14
+native: 36+ / 15- = 21
+native x 3,211,823 ops/sec ±4.33% (78 runs sampled)
+	Benchmark: uniq
+The fastest is lodash
+The slowest is underscore
+
+Scores (/46): 
+
+lodash: 13+ / 24- = -11
+underscore: 9+ / 24- = -15
+native: 36+ / 15- = 21
+native(keys/spread) x 21,544,243 ops/sec ±8.47% (68 runs sampled)
+	Benchmark: range
+The fastest is underscore
+The slowest is native(Array.from)
+
+Scores (/47): 
+
+lodash: 13+ / 24- = -11
+underscore: 10+ / 24- = -14
+native: 36+ / 16- = 20
