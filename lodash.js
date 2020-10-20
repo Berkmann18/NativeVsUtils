@@ -194,7 +194,7 @@ const bench = new Benchmark('native', {
     // Object.entries(users[0]);
     // Object.values(users[0]);
     // const { a: [{ b: { c: res = 1 } }] } = obj;
-    // const { a, c, ...res } = users[1];
+    // const { age, active, ...res } = users[1];
     // 'lorem'.repeat(2);
     // 'Hello World'.toUpperCase();
     // '  lorem  '.trim();

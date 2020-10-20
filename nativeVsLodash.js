@@ -365,7 +365,7 @@ getSuite
 omitSuite
   .add('lodash', () => _.omit(users[1], ['age', 'active']))
   .add('native', () => {
-    const { a, c, ...res } = users[1];
+    const { age, active, ...res } = users[1];
   })
   .run({ 'async': true });
 
