@@ -109,9 +109,6 @@ const a0 = [1];
 concatSuite.add('lodash', () => _.concat(a0, 2, [3], [
     [4]
   ]))
-  .add('underscore', () => __.concat(a0, 2, [3], [
-    [4]
-  ]))
   .add('native', () => a0.concat(2, [3], [
     [4]
   ]))
@@ -157,10 +154,6 @@ flattenSuite
 headTailSuite
   .add('lodash', () => {
     _.head(arr);
-    _.tail(arr)
-  })
-  .add('underscore', () => {
-    __.head(mtx);
     _.tail(arr)
   })
   .add('native', () => {
@@ -247,7 +240,7 @@ const redux = (prev, crt) => prev + crt;
 
 reduceSuite
   .add('lodash', () => _.reduce(a1, redux))
-  .add('native', () => arr.reduce(a1, redux))
+  .add('native', () => a1.reduce(redux))
   .run({ 'async': true });
 
 rangeSuite
@@ -258,7 +251,7 @@ rangeSuite
 
 reduceRightSuite
   .add('lodash', () => _.reduceRight(a1, redux))
-  .add('native', () => arr.reduceRight(a1, redux))
+  .add('native', () => a1.reduceRight(redux))
   .run({ 'async': true });
 
 sizeSuite
@@ -302,6 +295,7 @@ nulSuite
   .add('native', () => null === null)
   .run({ 'async': true });
 
+const x = undefined;
 undefSuite
   .add('lodash', () => _.isUndefined(x))
   .add('native(typeof)', () => typeof x === 'undefined')
@@ -392,6 +386,6 @@ trimSuite
 const re = /apples/gi,
   txt = 'Apples are round, and apples are juicy.';
 replaceSuite
-  .add('lodash', () => _.replace(str, re, 'oranges'))
+  .add('lodash', () => _.replace(txt, re, 'oranges'))
   .add('native', () => txt.replace(re, 'oranges'))
   .run({ 'async': true });
