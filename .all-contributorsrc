@@ -1,0 +1,30 @@
+{
+  "projectName": "NativeVsUtils",
+  "projectOwner": "Berkmann18",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "eslint",
+  "contributors": [
+    {
+      "login": "Berkmann18",
+      "name": "Maximilian Berkmann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8260834?v=4",
+      "profile": "https://github.com/Berkmann18",
+      "contributions": [
+        "question",
+        "blog",
+        "code",
+        "data",
+        "ideas",
+        "maintenance",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
